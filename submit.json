@@ -26,4 +26,5 @@
 { "name" : "cfstep-gitsubmodules", "url": "https://github.com/codefresh-contrib/cfstep-gitsubmodules" },
 { "name" : "sendgridplugin", "url": "https://github.com/codefresh-contrib/sendgridplugin" },
 { "name" : "twistlock-scanner", "url": "https://github.com/codefresh-contrib/cf-twistlock"},
-{ "name" : "npm-publish", "url": "https://github.com/codefresh-contrib/npm-publish"}]
+{ "name" : "npm-publish", "url": "https://github.com/codefresh-contrib/npm-publish"},
+{ "name" : "use-codefresh-cli", "url": "https://github.com/codefresh-plugins/cli"}]
