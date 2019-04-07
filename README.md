@@ -9,13 +9,13 @@ See each plugin readme for more info and usage instructions.
 | --- | --- |  --- |
 | [Anchore Plugin](https://github.com/codefresh-plugins/anchore-plugin) | Analyze Docker images and generate a detailed manifest using Anchore| `anchore` `docker`|
 | [Azure build](https://github.com/codefresh-plugins/azure-build-plugin) | Deploy Helm charts | `kubernetes` `helm`|
-| [Codefresh Cli](https://github.com/codefresh-plugins/codefresh-cli) | Operate on Codefresh resources | `cli` `codefresh`|
+| [Codefresh Cli](https://github.com/codefresh-plugins/cli) | Operate on Codefresh resources | `cli` `codefresh`|
 | [Slack Message Sender](https://github.com/codefresh-plugins/slack-message-sender)| Send message to slack| `slack` `notify`|
-| [Slack Notifier] (https://github.com/codefresh-plugins/slack-notifier)| Notify slack channel| `slack` `notify`|
+| [Slack Notifier](https://github.com/codefresh-plugins/slack-notifier)| Notify slack channel| `slack` `notify`|
 | [Deploy to ECS](https://github.com/codefresh-plugins/ecs-deploy)| Deploy docker image to ECS| `ecs` `deploy` `containers` `aws`                         |
 | [Annotate Gitlab Merge](https://github.com/codefresh-plugins/cf-gitlab-mr-annotate) | Annotate GitLab Merge Requests | `git` `gitlab` `ci`   |
 | [Deploy Kompose](https://github.com/codefresh-plugins/cf-kompose-plugin)| Deploy Docker Compose to Kubernetes cluster with Kubernetes [Kompose](http://kompose.io) | `docker` `docker-compose` `kompose` `deploy` `kubernetes` |
-| [GitHub PR](https://github.com/codefresh-plugins/github-pr)| Operates on pull requests on GitHub | `github` `pull-request` |
+| [GitHub PR](https://github.com/codefresh-plugins/github-pr-plugin)| Operates on pull requests on GitHub | `github` `pull-request` |
 | [Run Jenkins Jobs](https://github.com/codefresh-plugins/cf-run-jenkins-jobs)| Run jenkins job from codefresh pipeline| `jenkins` `job`|
 | [Deploy to DCOS](https://github.com/codefresh-plugins/cf-deploy-dcos) | Deploy application image to DC/OS cluster | `dcos` `deploy` `containers` |
 | [Interact with Jira](https://github.com/codefresh-plugins/jira-cli-docker) | Interact with Jira from codefresh pipelines| `jira` `workflow`|
