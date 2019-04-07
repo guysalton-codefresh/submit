@@ -21,14 +21,19 @@ See each plugin readme for more info and usage instructions.
 | [Interact with Jira](https://github.com/codefresh-plugins/jira-cli-docker) | Interact with Jira from codefresh pipelines| `jira` `workflow`|
 | [Makisu](https://github.com/codefresh-plugins/cfstep-makisu) | Building images using the Makisu tool | `makisu` `uber`|
 | [release to npm](https://github.com/codefresh-plugins/npm-publish) | Release npm modules from a pipeline | `npm` |
-| [Twistlock](https://github.com/codefresh-plugins/cfstep-twistlock) | Security scanning of docker images using Twistlock | `security` |
+| [Twistlock](https://github.com/codefresh-plugins/cf-twistlock) | Security scanning of docker images using Twistlock | `security` |
 | [Aqua](https://github.com/codefresh-plugins/cfstep-aqua) | Security scanning of docker images using Aqua | `security` |
 | [Paclair](https://github.com/codefresh-plugins/cfstep-paclair) |  Security scanning of Docker images using paclair | `security` |
-| [Import Docker Images](https://github.com/codefresh-plugins/import-docker-images) | Import Docker images metadata into Codefresh| `docker` `codefresh`|
+| [Import Docker Images](https://github.com/codefresh-plugins/cf-import-image) | Import Docker images metadata into Codefresh| `docker` `codefresh`|
 | [Google KMS](https://github.com/codefresh-plugins/google-kms) | Encryption/Decryption with Google KMS| `KMS` `codefresh`|
 | [Github Release](https://github.com/codefresh-plugins/cfstep-github-release) | Managing GitHub releases | `github` `release`|
 | [Google GKE](https://github.com/codefresh-plugins/plugin-gke) | GKE Clusters | `GKE` `codefresh`|
 | [Vault](https://github.com/codefresh-plugins/cf-vault-plugin) | Export Vault Key/Value pairs as ENV variables | `Vault` `codefresh`|
-| [Blue Green Deployment](https://github.com/codefresh-plugins/k8s-blue-green-deployment) | Perform blue/green deployments on a Kubernetes cluster| `Vault` `codefresh`|
-| [Canary Deployment](https://github.com/codefresh-plugins/k8s-canary-deployment) | Perform blue/green deployments on a Kubernetes cluster| `Vault` `codefresh`|
+| [Blue Green Deployment](https://github.com/codefresh-plugins/k8s-blue-green-deployment) | Perform blue/green deployments on a Kubernetes cluster| `deploy` `blue-green` `progressive`|
+| [Canary Deployment](https://github.com/codefresh-plugins/k8s-canary-deployment) | Perform blue/green deployments on a Kubernetes cluster| `deploy` `canary` `progressive`|
+| [Gitter Notifier](https://github.com/codefresh-plugins/gitter-notifier) | Notify gitter channel| `notifications` `gitter`|
+| [Sendgrid](https://github.com/codefresh-plugins/sendgrid-plugin) | Send an email notification via sendgrid| `notifications` `email`|
+| [Telegram Notifier](https://github.com/codefresh-plugins/telegram-notifier) | Notify on Telegram| `notifications` `telegram`|
+| [SMS Notifier](https://github.com/codefresh-plugins/send-sms) | Send SMS notification with Twilio| `notifications` `twilio` `sms`|
+
 
