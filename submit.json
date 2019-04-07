@@ -30,4 +30,5 @@
 { "name" : "use-codefresh-cli", "url": "https://github.com/alex-codefresh/cli"},
 { "name" : "deploy-serverless", "url": "https://github.com/alex-codefresh/cf-plugin-serverless"},
 { "name" : "bintray-releases", "url": "https://github.com/codefresh-contrib/cfstep-bintray"},
-{ "name" : "create-helm-chart", "url": "https://github.com/codefresh-contrib/cfstep-helm"}]
+{ "name" : "create-helm-chart", "url": "https://github.com/codefresh-contrib/cfstep-helm"},
+{ "name" : "k8s-canary-deployment", "url" : "https://github.com/codefresh-contrib/k8s-canary-deployment"}]
