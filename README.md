@@ -2,6 +2,7 @@
 
 Codefresh Plugins are Docker images made especially for use in Codefresh freestyle steps. Each plugin facilitates a common task that would otherwise be difficult to achieve.
 See each plugin readme for more info and usage instructions.
+See [Contributing.md] for details on how to submit a new plugin.
 
 ## Plugins
 
