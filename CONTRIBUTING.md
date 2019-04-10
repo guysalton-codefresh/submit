@@ -8,7 +8,7 @@ The Codefresh Plugins project accepts contributions via GitHub pull requests. Th
 2. Create a github repository for your plugin containing the following:
     - all the source files needed to create the plugin
     - a Dockerfile that describes how to package your plugin in a Docker image
-    - a plugin.yaml file (see further for the [schema](#plugin.yml-schema))
+    - a plugin.yaml file (see further for the [schema](#plugin-metadata-file-schema))
     - an example.yaml file that shows how to use your plugin in a Codefresh pipeline
 3. Ensure your Plugin follows the [technical](#technical-requirements) and [documentation](#documentation-requirements) guidelines, described below
 4. Fork this repository (codefresh-plugins/submit)
@@ -28,7 +28,7 @@ The Codefresh Plugins project accepts contributions via GitHub pull requests. Th
 * The Plugin Docker Image should not have any major security vulnerabilities
 * It should be possible to run the Plugin with simple `docker run` command, providing all required environment variables and volumes
 
-#### Plugin.yml Schema
+#### Plugin Metadata File Schema
 ```yaml
 image: <imagename>
 tag: "string"
