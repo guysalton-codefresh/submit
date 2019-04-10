@@ -12,7 +12,10 @@ The Codefresh Plugins project accepts contributions via GitHub pull requests. Th
     - an example.yaml file that shows how to use your plugin in a Codefresh pipeline
 3. Ensure your Plugin follows the [technical](#technical-requirements) and [documentation](#documentation-requirements) guidelines, described below
 4. Fork this repository (codefresh-plugins/submit)
-4. Update [plugin submission file](submit.json) with your plugin properties
+4. Update [plugin submission file](submit.json) with your plugin properties like this:
+   ```
+      { "name" : "my-plugin", "url" : "https://github.com/my-plugin-repo"}]
+   ```
 5. Submit a pull request
 
 ***NOTE***: In order to make testing and merging of PRs easier, please submit changes to multiple plugins in separate PRs.
@@ -24,6 +27,29 @@ The Codefresh Plugins project accepts contributions via GitHub pull requests. Th
 * It should be possible to build the Plugin using single `Dockerfile` (use *multi-stage* build if needed)
 * The Plugin Docker Image should not have any major security vulnerabilities
 * It should be possible to run the Plugin with simple `docker run` command, providing all required environment variables and volumes
+
+#### Plugin.yml Schema
+```yaml
+image: <imagename>
+tag: "string"
+version: "0.1.0"
+description: Plugin to ...
+keywords:
+  - kw1
+  - kw2
+categories:
+  - One or more of the categories found here: https://steps.codefresh.io/
+sources:
+  - https://github.com/my-user-my-plugin-repo
+maintainers: 
+  - name: Ant Weiss
+    email: anton@otomato.link
+icon: Url to a .jpg image (420x220 ratio) - alternatively put a file called 'icon.jpg' in the repo 
+envs:
+  - name: VARIABLE_NAME
+    type: required or otional
+    description: Variable descritption
+```
 
 #### Documentation requirements
 
